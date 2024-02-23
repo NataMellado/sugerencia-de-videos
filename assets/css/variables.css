@@ -1,0 +1,15 @@
+:root {
+    /* Colors */
+    --clr-pr1: #121212;
+    --clr-pr2: #181818;
+    --clr-pr3: #DE0201;
+    --clr-white: #ffffff;
+
+    /* Font */
+    --ff-pr: 'Segoe UI', sans-serif;
+
+    /* Font weight */
+    --fw-600: 600;
+    --fw-700: 700;
+
+}
