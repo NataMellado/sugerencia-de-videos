@@ -2,7 +2,19 @@
 
 En este desafío se validarán los conocimientos de clases, polimorfismo, closures y patrón de módulo.
 
+## Screenshots
+
+![](./assets/img/desktop.png)
+<div style="text-align:center;">
+    <img src="./assets/img/mobile.png" width="50%">
+</div>
+
 ## Tecnologías y herramientas usadas
+
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
 
 ## Requerimientos
 
