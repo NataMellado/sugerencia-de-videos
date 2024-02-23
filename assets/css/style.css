@@ -1,11 +1,6 @@
 @import url('./variables.css');
 
-body {
-    font-family: var(--ff-pr)!important;
-    background-color: var(--clr-pr1);
-    padding: 3rem 0;
-}
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -17,27 +12,12 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
-
-.embed-responsive {
-    margin-inline: auto;
-    max-width: 600px;
+/* Global Styles */
+body {
+    font-family: var(--ff-pr)!important;
+    background-color: var(--clr-pr1);
+    padding: 4rem 1rem;
 }
-
-.card {
-    background-color: var(--clr-pr2);
-    color: var(--clr-whit);
-}
-
-.accordion {
-    display: grid;
-    gap: 0.5rem;
-}
-
-button {
-    color: var(--clr-white) !important;
-    font-weight: var(--fw-700)!important;
-}
-
 
 header {
     display: flex;
@@ -60,9 +40,38 @@ header i {
 
 main {
     display: grid;
-    gap: 2rem;
+    max-width: 700px;
+    margin-inline: auto;
+    gap: 4rem;
 }
 
+.accordion {
+    display: grid;
+    gap: 0.5rem;
+    
+}
 
+.card {
+    background-color: var(--clr-pr2);
+    color: var(--clr-whit);
+}
 
+.card .embed-responsive {
+    margin-inline: auto;
+    max-width: 600px;
+}
+
+.card button {
+    color: var(--clr-white) !important;
+    font-weight: var(--fw-600)!important;
+    font-size: clamp(1rem, 3vw, 1.3rem);
+}
+
+button:hover,
+button:focus {
+    background-color: var(--clr-pr3);
+    border-radius: none !important;
+    box-shadow: none!important;
+
+} 
 
