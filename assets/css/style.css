@@ -59,6 +59,9 @@ main {
 .card .embed-responsive {
     margin-inline: auto;
     max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card button {
@@ -75,3 +78,17 @@ button:focus {
 
 } 
 
+/* loader in th ecenter red color */
+.loader {
+    border: 4px solid var(--clr-pr3);
+    border-top: 4px solid var(--clr-pr2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

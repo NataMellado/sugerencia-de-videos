@@ -44,7 +44,13 @@ const videoModule = (function() {
     // Private function
     const insertVideo = (url, id) => {
         const iframe = document.getElementById(id);
+        const loader = document.getElementById('loader');
         iframe.setAttribute('src', url);
+
+        iframe.addEventListener('load', () => {
+            loader.style.display = 'none';
+            iframe.style.display = 'block';
+        });
     }
 
     // Public function
