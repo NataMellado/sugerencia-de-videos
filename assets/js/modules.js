@@ -34,7 +34,7 @@ class Reproductor extends Multimedia {
 
     // Method that receives and adds the start time to the video
     setInicio(time) {
-        this.id.setAttribute('src', `${this.url}?start=${time}`);
+        document.getElementById(this._id).setAttribute('src', `${this.url}?start=${time}`);
     }
 }
 

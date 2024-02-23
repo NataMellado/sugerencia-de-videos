@@ -6,7 +6,11 @@ const pelicula = new Reproductor('https://www.youtube.com/embed/8ugaeA-nMTc', 'p
 const serie = new Reproductor('https://www.youtube.com/embed/IJ_AZCvCacw', 'series');
 
 // Call the method playMultimedia
-
 musica.playMultimedia();
 pelicula.playMultimedia();
 serie.playMultimedia();
+
+// Call the method setInicio
+musica.setInicio(5);
+pelicula.setInicio(10);
+serie.setInicio(15);
