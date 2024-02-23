@@ -5,3 +5,8 @@ body {
 img {
     width: 10%;
 }
+
+.embed-responsive {
+    margin-inline: auto;
+    max-width: 600px;
+}
